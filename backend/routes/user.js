@@ -1,6 +1,4 @@
-import express from 'express'
-
-const Router = express.Router()
+import { Router } from 'express';
 
 export const userRouter = Router();
 

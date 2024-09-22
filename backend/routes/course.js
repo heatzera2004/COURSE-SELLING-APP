@@ -1,6 +1,4 @@
-import express from 'express'
-
-const Router = express.Router();
+import { Router } from 'express'
 
 export const courseRouter = Router()
 
@@ -12,6 +10,6 @@ courseRouter.post("/purchase" , (req,res) => {
 
 courseRouter.get("/preview" , (req,res) => {
     res.json({
-        message: "courses"
+        message: "preview courses"
     })
 })
